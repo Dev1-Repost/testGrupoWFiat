@@ -1,0 +1,140 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+/*background color red*/
+.bg-form-cotizar {
+	background-color: #ff0000;
+}
+/*background middle split*/	
+.back-middle {		
+	position: absolute;
+	background-color: #4957d1;
+	top: -30%;
+	left: -25%;
+	width: 200%;
+	height: 150%;
+	-ms-transform: rotate(-10deg);
+	-webkit-transform: rotate(-10deg);
+	transform: rotate(-10deg);
+}
+/*start form pre header section*/	
+.pre-header {
+	position: relative;
+}	
+.pre-header > h3 {
+	margin-bottom: 20px;   
+	font-size: .75em; 
+	color: #fff;
+	letter-spacing: .4em; 
+	margin-bottom: 20px; 
+}
+.pre-header > h2 {
+	font-family: 'Playfair Display', serif; 
+	font-weight: 700;
+	font-size: 1.16667em;
+	margin-bottom: 15px;
+	color: #000;
+	line-height: .91667em;
+	letter-spacing: .2em;
+}
+
+.pre-header > h2 span {
+	margin-left: 20px;
+	margin-right: 20px;
+	background-color: #000;
+	display: inline-block;
+	height: 1px;
+	vertical-align: middle;
+	width: 65px;
+}
+.pre-header > p.highlight  {
+	font-size: 6.5em; 
+	color: #fff;
+	margin-bottom: 15px;
+	line-height: 80px;   
+	font-family: 'Playfair Display', serif;    
+	font-style: italic;
+	font-weight: 900;
+}
+/*end form pre header section*/
+
+/*wrap form section*/
+#wrap { 
+	padding-top: 40px;
+	background-color: white; 
+	margin: 0 auto
+}
+/*start form tags section*/
+.form-wrap label {
+	color: #666666;
+	font-size: .7em;
+	letter-spacing: .125em;
+	left: .83333em;
+	top: -.25em;	
+}
+.form-wrap select, .form-wrap input, .form-wrap textarea, .form-wrap button {
+	margin-top: -1px;
+	font-size: .7em;
+	border: 1.3px solid #ff0000;
+	font-weight: 700
+}
+.form-wrap .button {
+	display: block;
+	width: auto;
+	height: 45px;
+	line-height: 45px;
+	font-size: 0.8em;
+	letter-spacing: .1em;
+	padding: 0 25px;
+	background-color: #fff;
+	color: #000;
+	font-weight: 700;
+}
+/*end form tags section*/
+
+/*start subtitle section*/
+.subtitle {
+	color: #ff0000; 
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
+	font-weight: 900;      
+	text-align: center;
+	padding-top: 40px;
+}
+.subtitle .line {
+	margin-left: 20px;
+	margin-right: 20px;
+	background-color: #ff0000;     
+	display: inline-block;
+	height: 1px;
+	vertical-align: middle;
+	width: 65px;
+}
+.subtitle-min {
+	font-size: .75em;
+	font-weight: 700;
+	color: #495057;
+	letter-spacing: .4em;     
+	text-align: center
+}
+/*end subtitle section*/
+
+/*start media query section*/
+@media (max-width: 576px) {			
+  .subtitle .line {
+	  display: none;
+	}
+
+   .pre-header > h2 span {
+	   display: none;
+	}
+}
